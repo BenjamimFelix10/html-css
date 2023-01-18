@@ -16,19 +16,30 @@
         width: 500px;
         height: 500px;
         border-collapse: collapse;
+        
     }
+    
 </style>
 
 
     <table>
         <thead>
             <tr>
-                <th scope="col" rowspan="3">Área</th>
-                <th scope="col">Diciplinas</th>
+                <th rowspan="2" scope="rowgroup">Área</th>
+                <th rowspan="2" scope="col">Diciplinas</th>
                 
-                <th scope="colgroup" colspan="2">Notas</th>
+                <th colspan="2" scope="colgroup" >Notas</th>
                 
-                <th scope="colgroup" colspan="2">Média</th>
+                <th rowspan="2" scope="rowgroup" >Média</th>
+                
+                
+            </tr>
+
+             <tr>
+                
+                <th>nota1</th>
+                <th>nota2</th>
+                
                 
                 
             </tr>
@@ -36,25 +47,17 @@
 
         <tbody>
 
-            <tr>
-                <th></th>
-                <th></th>
-                <th>nota1</th>
-                <th>nota2</th>
+           
                 
                 
-                
-            </tr>
-                
-                
-                
+                <img>
             <tr>
                 <th scope="rowgroup" rowspan="4">Exatas</th>
                 <td>Matemática</td>
                 <td>00</td>
                 <td>00</td>
                 <td>00</td>
-                <td>00</td>
+                
             </tr>
             <tr>
                 
@@ -62,7 +65,7 @@
                 <td>00</td>
                 <td>00</td>
                 <td>00</td>
-                <td>00</td>
+                
                 </tr>
 
                 <tr>
@@ -71,7 +74,7 @@
                     <td>00</td>
                     <td>00</td>
                     <td>00</td>
-                    <td>00</td>
+                    
                 </tr>
 
                     <tr>
@@ -80,10 +83,10 @@
                         <td>00</td>
                         <td>00</td>
                         <td>00</td>
-                        <td>00</td>
+                        
                     </tr>
                     <tr>
-                        <th colspan="5">Total Média</th>
+                        <th colspan="4">Total Média</th>
                         <td>00</td>
                     </tr>
 
@@ -93,7 +96,7 @@
                         <td>00</td>
                         <td>00</td>
                         <td>00</td>
-                        <td>00</td>
+                        
                     </tr>
 
                     <tr>
@@ -102,11 +105,11 @@
                         <td>00</td>
                         <td>00</td>
                         <td>00</td>
-                        <td>00</td>
+                        
                     </tr>
 
                     <tfoot>
-                        <th scope="row" colspan="5">Total</th>
+                        <th scope="row" colspan="4">Total</th>
                         <td>00</td>
                     </tfoot>
 
