@@ -19,23 +19,25 @@
 }
 
 html body{
-    background-color: gray;
+    background-color: white;
     min-height: 100vh;
     font-family: var(--fonte1);
 }
 
 header{
-    background-color: black;
-    color: white;
+    background-color:rgb(0, 0, 0);
+    color: rgba(0, 0, 0, 0.836);
     text-align: center;
     padding: 50px;
     font-variant: small-caps;
     font-size: 3.5vw;
+    background-image: url("imagens/D_NQ_NP_918283-MLB49814890769_042022-V.jpg");
+    
 }
 header>h1{
     padding-top: 50px;
     font-variant: small-caps;
-    font-family: var(--fonte3);
+    font-family: var(--fonte3);  
 }
 
 header>p{
@@ -43,7 +45,7 @@ header>p{
 }
 
 header a, footer a{
-    color: white;
+    color:black;
     text-decoration: none;
     font-weight: bold;
     font-family: var(--fonte3);
@@ -57,23 +59,53 @@ header a, footer a{
     section{
         line-height: 2em;
         padding-left: 30px;
-        padding-top: 10vhpx;
+        padding-top: 10vh;
         padding-bottom: 10vh ;
         font-family: var(--fonte2);
         font-size: 2vw;
+        background-attachment: fixed;
+    }
+
+    section>p{
+        padding-bottom:2em ;
+        
+
     }
 
     section.normal{
         background-color:white;
+        
+    }
+
+
+    section#img1{
+    background-image: url("imagens/nordeste.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+
+    }
+
+    section#img2{
+        background-image: url("imagens/nordestino.jpg");
+        background-size: cover;
+        
+
+
     }
 
     section.imagem>p{
-    background-color: rgba(0, 0, 0, 0.322);
-     display: inline-block;
+    background-color: rgba(0, 0, 0, 0.514);
+    display: inline-block;
+    text-shadow: 1px 1px 0px black;
+    margin-top: 50px;
+     
     }
 
     section.imagem{
        color: white;
+       background-color: rgba(51, 51, 51);
+       box-shadow:inset 6px 6px 13px 0px rgba(0, 0, 0, 0.437);
     }
 
     footer{
