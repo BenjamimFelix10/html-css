@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="cadrasto.php" method="post" autocomplete="on">
+ 
+         <label for="estado"> Escolha seu estado</label>
+         <select name="estado" id="estado">
+         <option value="" selected>---Escolha---seu----Estado</option>
+         <optgroup label="Nordeste">
+                <option value="Ma">Maranhão</option>
+                <option value="Pe">Pernambuco</option>
+                <option value="Ba">Baiha</option>
+            </optiongroup>
+            <optgroup label="Sudeste">
+                <option value="Mg">Minas Gerais</option>
+                <option value="Sp">São Paulo</option>
+                <option value="Rj">Rio de Janeiro</option>
+            </optgroup>
+        </select>
+        <p>
+            <label for="prof">Profissões</label>
+            <input type="text" name="lista" id="lista" list="prof">
+            <datalist id="prof">
+                <option>Professor</option>
+                <option>Cozinheiro</option>
+                <option>Predeiro</option>
+            </datalist>
+        </p>
+<p>
+    <label for="msg">Mensagem</label><br>
+    <textarea name="msg" id="msg" cols="30" rows="10"></textarea>
+</p>
+
+
+    </form>
+</body>
+</html>
